@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Editor Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0a0a0a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#0f0f0f;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+nav h2{
+color:#00ffe5;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00ffe5;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+color:#00ffe5;
+text-shadow:0 0 20px #00ffe5;
+}
+
+.hero p{
+max-width:600px;
+margin-top:20px;
+opacity:.8;
+}
+
+.hero button{
+margin-top:30px;
+padding:15px 40px;
+border:none;
+background:#00ffe5;
+color:black;
+font-weight:600;
+border-radius:10px;
+cursor:pointer;
+transition:.3s;
+}
+
+.hero button:hover{
+transform:scale(1.05);
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:50px;
+font-size:36px;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111;
+padding:30px;
+border-radius:15px;
+transition:.4s;
+border:1px solid #222;
+}
+
+.card:hover{
+transform:translateY(-10px);
+border-color:#00ffe5;
+box-shadow:0 0 20px #00ffe5;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.video{
+position:relative;
+overflow:hidden;
+border-radius:15px;
+}
+
+.video iframe{
+width:100%;
+height:220px;
+border:none;
+}
+
+.video:hover{
+transform:scale(1.03);
+transition:.3s;
+}
+
+/* CONTACT */
+
+.contact{
+max-width:600px;
+margin:auto;
+}
+
+input, textarea{
+width:100%;
+padding:15px;
+margin-top:10px;
+background:#111;
+border:1px solid #333;
+color:white;
+border-radius:8px;
+}
+
+textarea{
+height:120px;
+}
+
+.contact button{
+margin-top:15px;
+padding:15px;
+background:#00ffe5;
+border:none;
+color:black;
+font-weight:600;
+cursor:pointer;
+border-radius:8px;
+width:100%;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:#0f0f0f;
+opacity:.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<h2>AnishS</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Video Editing That Captures Attention</h1>
+
+<p>
+I create engaging short-form and long-form videos using modern trends, powerful storytelling, and high-retention editing techniques.
+</p>
+
+<a href="https://fiverr.com/YOURUSERNAME">
+<button>Hire Me on Fiverr</button>
+</a>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p style="text-align:center;max-width:700px;margin:auto;">
+I specialize in editing short-form and long-form content for creators, influencers, and brands.
+My editing focuses on audience retention, modern social media trends, and professional storytelling.
+I also guide creators on choosing the right niche, understanding their target audience, and structuring videos for better engagement.
+</p>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<h2>Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Short Form Editing</h3>
+<p>TikTok, Reels, and Shorts with fast pacing, captions, and viral-style editing.</p>
+</div>
+
+<div class="card">
+<h3>Long Form Editing</h3>
+<p>YouTube videos with storytelling, sound effects, smooth transitions, and retention-focused cuts.</p>
+</div>
+
+<div class="card">
+<h3>Custom Intros & Outros</h3>
+<p>Unique branded intros and outros for short and long videos.</p>
+</div>
+
+<div class="card">
+<h3>Content Strategy</h3>
+<p>Guidance on niche selection, target audience, and video optimization.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio">
+
+<h2>My Work</h2>
+
+<div class="portfolio">
+
+<div class="video">
+<iframe src="YOUR_VIDEO_LINK"></iframe>
+</div>
+
+<div class="video">
+<iframe src="YOUR_VIDEO_LINK"></iframe>
+</div>
+
+<div class="video">
+<iframe src="YOUR_VIDEO_LINK"></iframe>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<div class="contact">
+
+<form action="https://formsubmit.co/YOUREMAIL@gmail.com" method="POST">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<textarea name="message" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 AnishS | Video Editing Portfolio</p>
+
+</footer>
+
+</body>
+</html>
